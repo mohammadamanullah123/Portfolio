@@ -28,6 +28,9 @@ Home:
 About Me:
 ![image](https://github.com/user-attachments/assets/bf371d2e-d79e-4363-97ad-33c8c088ffed)
 
+🤝 Connect With Me
 
+💼 LinkedIn: www.linkedin.com/in/mohd-amanullah-3193202b5
+📧 Email: rizwan954635@gmail.com 
 
 
