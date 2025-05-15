@@ -1,0 +1,351 @@
+* {
+    user-select: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    .home .home-content .text-2 {
+        font-size: 27px;
+        font-weight: 300;
+        margin-left: -3px;
+    }
+    .contact {
+        background: #8067f0eb;
+        width: 100%;
+        margin: 50px auto;
+        padding: 40px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 12px;
+        background-image: url(../img/intro.png);
+        background-size: cover;
+    }
+    .center h3 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 3px;
+        color: var(--bg-color);
+    }
+    .center p {
+        font-size: var(--p-font);
+        color: var(--bg-color);
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    .contact .action form input[type="email"] {
+        max-width: 100%;
+        width: 270px;
+        padding: 12px 15px;
+        background: var(--bg-color);
+        color: var(--text-color);
+        border: none;
+        outline: none;
+        margin: 0 10px 20px 0;
+        border-radius: 30px;
+    }
+    .contact .action form input[type="text"] {
+        max-width: 100%;
+        width: 270px;
+        padding: 12px 15px;
+        background: var(--bg-color);
+        color: var(--text-color);
+        border: none;
+        outline: none;
+        margin: 0 10px 20px 0;
+        border-radius: 30px;
+    }
+    .contact .action form input[type="submit"] {
+        padding: 12px 40px;
+        background: var(--main-color);
+        color: var(--bg-color);
+        border: none;
+        outline: none;
+        margin: 0 10px 20px 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    @media (max-width: 540px) {
+        .contact .action form input[type="email"] {
+            width: 310px;
+        }
+        .contact .action form input[type="text"] {
+            width: 310px;
+        }
+    }
+    .about .about-content .column {
+        width: 100%;
+    }
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right {
+        flex: 100%;
+    }
+    .main h2 {
+        display: flex;
+    }
+    .main p {
+        display: flex;
+    }
+    .pic {
+        position: relative;
+        top: 300px;
+    }
+    .tag h2 {
+        text-align: center;
+    }
+    .contentt {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 10;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+@media (max-width: 1180px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 10;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+.container .card {
+    width: 50%;
+}
+
+/* home section*/
+
+.tag h2 {
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    font-size: 45px;
+    font-weight: 800;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    color: #000099;
+}
+
+.paraa p {
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    font-size: 25px;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.experience {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -100px;
+    color: #000099;
+}
+
+@media screen and (max-width:500px) {
+    .tag h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+}
+
+/*experience section*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+.contained {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: whitesmoke;
+}
+
+.timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin-top: 130px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul {
+    list-style: none;
+}
+
+.timeline ul li {
+    padding: 20px;
+    background-color: #153db7;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.heilight {
+    color: red;
+}
+
+.timeline-content .date {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: #1f2022;
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: gray;
+    }
+    .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+        border-radius: 20px 0px 20px 20px;
+    }
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0px 20px 20px 20px;
+    }
+    .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 0px;
+    }
+    .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+    }
+    .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+    }
+    .timeline-content .date {
+        position: absolute;
+        top: -30px;
+    }
+    .timeline ul li:hover::before {
+        background-color: rgb(26, 64, 168);
+    }
+}
