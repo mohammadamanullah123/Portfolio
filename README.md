@@ -1,6 +1,6 @@
 --> 🌐 My Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and background as a developer. It serves as a central place for visitors to learn more about me and view my work.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and background as a Student. It serves as a central place for visitors to learn more about me and view my work.
 
 --> 🔗 Live Demo
 
@@ -16,21 +16,18 @@ Check out the live version of my portfolio here: [https://amanullahh.netlify.app
 
 - 👨‍💻 **About Me** section with personal introduction
 - 💼 **Projects** showcase with details and links
+- 🎓 **Education** section with academic background and certifications
+- 🖼️ **Gallery** (optional) to highlight achievements, event photos, or collage memory
 - 📧 **Contact Form** for easy communication
 - 📜 **Resume Download** button
 - 🎨 Responsive and clean UI/UX design
 
 --> 📷 Screenshots
+Home:
+![image](https://github.com/user-attachments/assets/7d4c2162-ebcf-4bdb-a523-ac61aad26e5d)
+About Me:
+![image](https://github.com/user-attachments/assets/bf371d2e-d79e-4363-97ad-33c8c088ffed)
 
-![Screenshot 1](path-to-your-screenshot-1.png)
-![image](https://github.com/user-attachments/assets/82c466ee-1396-454b-86f0-28e320cb3e75)
 
-![Screenshot 2](path-to-your-screenshot-2.png)
 
-## 🚀 Getting Started
 
-To run this locally, clone the repo and open the `index.html` file in your browser.
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-nam
